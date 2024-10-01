@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<form class="col-12">
+ 
+    <label class="col-3" for="Name"><b>Name</b></label>
+    <br>
+
+    <div class="row">
+        <div class="col-3"style="position:relative;left:10px;">
+          <input type="text" class="form-control" placeholder="first name" aria-label="First name" >
+          <label class="col-2" for="FName" required>First</label>
+        </div>
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="last name" aria-label="Last name">
+          <label class="col-2" for="LName">Last</label>
+        </div>
+      </div>
+      <br>
+      <div class="col-4">
+        <label for="exampleFormControlInput1" class="form-label" required><b>Email</b> </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" >
+      </div>
+<br>
+      <h5 class="col-4">Your Experience</h5>
+      <div class="col-4">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <p>overall how would you rate your experience with?</p>
+    </div>
+<br>
+
+    <h5 class="col-4">How satisified you are with</h5>
+
+    <table>
+
+<br>
+        <tr>
+            <th></th>
+            <th style="padding-left: 20px;"> Neutral </th>
+            <th style="padding-left: 20px;"> Satisfied </th>
+            <th style="padding-left: 20px;"> Unsatisfied </th>
+            <th style="padding-left: 20px;">Very Unsatisfied </th>
+            <th style="padding-left: 20px;">Very Satisfied </th>
+        </tr>
+        <tr>
+            <td style="padding: 29px;">Purchase</td>
+            <td style="padding: 29px;"><input type="radio" name="purchase" value="satisfied" ></td>
+            <td style="padding: 29px;"><input type="radio" name="purchase" value="neutral"></td>
+            <td style="padding: 29px;"><input type="radio" name="purchase" value="unsatisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="purchase" value="very_unsatisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="purchase" value="very_satisfied"></td>
+        </tr>
+        <tr>
+            <td style="padding: 29px;">Service</td>
+            <td style="padding: 29px;"><input type="radio" name="service" value="satisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="service" value="neutral"></td>
+            <td style="padding: 29px;"><input type="radio" name="service" value="unsatisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="service" value="very_unsatisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="service" value="very_satisfied"></td>
+        </tr>
+        <tr>
+            <td style="padding: 29px;">Company Overall</td>
+            <td style="padding: 29px;"><input type="radio" name="company_overall" value="satisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="company_overall" value="neutral"></td>
+            <td style="padding: 29px;"><input type="radio" name="company_overall" value="unsatisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="company_overall" value="very_unsatisfied"></td>
+            <td style="padding: 29px;"><input type="radio" name="company_overall" value="very_satisfied"></td>
+        </tr>
+
+
+<br>
+
+
+    </table>
+
+    <h5 class="col-4">How lucky are you Today</h5>
+
+<table>
+
+    <br>
+    <tr>
+        <th></th>
+        <th style="padding-left: 20px;"> very inlikely </th>
+        <th style="padding-left: 20px;"> unlikely</th>
+        <th style="padding-left: 20px;"> Neutral </th>
+        <th style="padding-left: 20px;">likely </th>
+        <th style="padding-left: 20px;">Very likely </th>
+    </tr>
+    <tr>
+        <td style="padding: 29px;">Buy from Us again</td>
+        <td style="padding: 29px;"><input type="radio" name="purchase" value="satisfied" ></td>
+        <td style="padding: 29px;"><input type="radio" name="purchase" value="neutral"></td>
+        <td style="padding: 29px;"><input type="radio" name="purchase" value="unsatisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="purchase" value="very_unsatisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="purchase" value="very_satisfied"></td>
+    </tr>
+    <tr>
+        <td style="padding: 29px;">Recomend our<br>product to others</td>
+        <td style="padding: 29px;"><input type="radio" name="service" value="satisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="service" value="neutral"></td>
+        <td style="padding: 29px;"><input type="radio" name="service" value="unsatisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="service" value="very_unsatisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="service" value="very_satisfied"></td>
+    </tr>
+    <tr>
+        <td style="padding: 29px;">Recomend our<br>company to others</td>
+        <td style="padding: 29px;"><input type="radio" name="company_overall" value="satisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="company_overall" value="neutral"></td>
+        <td style="padding: 29px;"><input type="radio" name="company_overall" value="unsatisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="company_overall" value="very_unsatisfied"></td>
+        <td style="padding: 29px;"><input type="radio" name="company_overall" value="very_satisfied"></td>
+    </tr>
+
+</table>
+<h5 class="col-3">Additional comments or suggestions</h5>
+
+
+<textarea style="position:relative;left:10px;" id="comments" name="comments" rows="4" cols="55" class="col-6" placeholder="suggestions"></textarea><br>
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
